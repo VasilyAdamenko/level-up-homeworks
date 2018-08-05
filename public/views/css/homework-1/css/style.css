@@ -9,8 +9,8 @@ td {
   padding: 18px;
 }
 /*HW*/
-*{
-  font-family: arial, sans-serif;
+* {
+  font-family: Arial, sans-serif;
 }
 h1 {
   font-size: 2.6em;
@@ -36,7 +36,7 @@ td:first-letter {
 tr:nth-child(even) {
   background-color: #ddd;
 }
-td:nth-child(1n+5) {
+tr:nth-child(n) td:nth-child(n+5) {
   font-style: italic;
   font-weight: bold;
 }
