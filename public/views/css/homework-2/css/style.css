@@ -55,9 +55,9 @@ body {
 }
 
 .log-in {
-  margin-top: -17px; 
   position: absolute;
   right: 30px;
+  top: 30px;
 }
 
 .content, footer {
@@ -117,7 +117,7 @@ td, .email, .button {
 }
 
 button:hover {
-  border: solid blue;
+  border-color: blue;
 }
 
 .footer-content {
